@@ -140,3 +140,9 @@ footer div { margin-top: 6px; }
   .brand span, .brand { font-size: 0; }
   .brand img { width: 36px; height: 36px; }
 }
+
+/* Apple's official badge: keep at least 40px tall and leave clear space */
+.store-badge { display: inline-flex; align-items: center; padding: 2px; transition: transform .15s ease; }
+.store-badge:hover { transform: translateY(-1px); }
+.store-badge img { display: block; height: 54px; width: auto; }
+.cta { align-items: center; }
