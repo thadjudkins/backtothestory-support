@@ -3,56 +3,98 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Back to the Story Support</title>
-  <meta name="description" content="Help and contact information for Back to the Story, the iPhone app for reading, listening to and keeping track of your books.">
+  <title>Back to the Story: an ebook reader that reads aloud</title>
+  <meta name="description" content="Back to the Story is an iPhone ebook reader with private, on-device text to speech. Add the audiobook and your place stays in sync between page and recording. No account, no subscription.">
+  <meta property="og:title" content="Back to the Story">
+  <meta property="og:description" content="An ebook reader that reads aloud, privately on your iPhone, and keeps your audiobook in sync.">
+  <meta property="og:image" content="https://backtothestory.com/img/02-hero.jpg">
+  <meta property="og:url" content="https://backtothestory.com/">
+  <meta name="apple-itunes-app" content="app-id=6811297859">
+  <link rel="icon" href="img/icon.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<main>
-  <header>
-    <div class="badge" aria-hidden="true">&#9835;</div>
-    <h1>Back to the Story Support</h1>
-    <p class="sub">Read, Listen, Track Every Book</p>
-  </header>
-
-  <div class="card">
-    <strong>Need help?</strong>
-    <p style="margin:6px 0 0">Email <a href="mailto:backtothestory.app@gmail.com">backtothestory.app@gmail.com</a> and include your iPhone model, iOS version, and what you were doing when the problem happened. We usually reply within a few days.</p>
+<body class="home">
+<nav class="topnav">
+  <a class="brand" href="./"><img src="img/icon.png" alt="" width="32" height="32">Back to the Story</a>
+  <div class="links">
+    <a href="#features">Features</a>
+    <a href="help.html">Help</a>
+    <a class="btn btn-small" href="https://apps.apple.com/app/id6811297859">Get the app</a>
   </div>
+</nav>
 
-  <h2>Frequently asked questions</h2>
+<section class="hero">
+  <div class="hero-text">
+    <img class="hero-icon" src="img/icon.png" alt="Back to the Story app icon" width="96" height="96">
+    <h1>An ebook reader<br><em>that reads aloud.</em></h1>
+    <p class="lede">Private text to speech turns any ebook into an audiobook, right on your iPhone. Have the real audiobook too? Add it, and your place stays in sync between the page and the recording.</p>
+    <div class="cta">
+      <a class="btn" href="https://apps.apple.com/app/id6811297859">
+        <svg viewBox="0 0 384 512" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+        Download on the App Store
+      </a>
+      <a class="btn btn-ghost" href="#features">See what it does</a>
+    </div>
+    <p class="fine">Free to download · Reading is always free · 30-day free trial of listening</p>
+  </div>
+  <div class="hero-shot">
+    <img src="img/02-hero.jpg" alt="Read it. Hear it. Never lose your place. The reader and audiobook player showing Pride and Prejudice." width="600" height="1304">
+  </div>
+</section>
 
-  <h3>How do I add books?</h3>
-  <p>Tap <strong>+ Book</strong> in your library and choose an ebook, an audiobook, or both together from the Files app, including iCloud Drive. Press and hold a book in your library to change its files, details, or cover.</p>
+<section class="gallery" aria-label="Screenshots">
+  <div class="strip">
+    <img src="img/03-listen.jpg" alt="Stop reading, start listening: pick up at the exact sentence you left" loading="lazy" width="600" height="1304">
+    <img src="img/04-aloud.jpg" alt="No audiobook? It reads to you: private on-device text to speech from any word" loading="lazy" width="600" height="1304">
+    <img src="img/05-track.jpg" alt="Track every book, rate every read: stars, notes and a reading journal" loading="lazy" width="600" height="1304">
+    <img src="img/06-voices.jpg" alt="Pick a voice or make your own: three on-device voice models" loading="lazy" width="600" height="1304">
+    <img src="img/07-shelf.jpg" alt="A shelf full of stories: list, grid or shelf views in five color themes" loading="lazy" width="600" height="1304">
+    <img src="img/08-add.jpg" alt="Add a book in seconds: EPUB, PDF, MOBI, M4B, MP3 and more" loading="lazy" width="600" height="1304">
+  </div>
+</section>
 
-  <h3>Which file types work?</h3>
-  <p>Ebooks: EPUB, PDF, unencrypted MOBI, TXT, Markdown, HTML, RTF and FictionBook. Audiobooks: M4B, or MP3 files in a folder or ZIP.</p>
+<section id="features" class="features">
+  <div class="feature">
+    <div class="ficon" style="--c:#e8913a" aria-hidden="true">📖</div>
+    <h2>Read</h2>
+    <p>A comfortable reader for EPUB, PDF, MOBI, TXT and more, with bookmarks, find in book and dictionary look-up. Arrange your library as a list, grid or shelf in five color themes, with series and collections.</p>
+  </div>
+  <div class="feature">
+    <div class="ficon" style="--c:#e0566b" aria-hidden="true">🔊</div>
+    <h2>Listen</h2>
+    <p>Tap any word and choose “Read to me from here.” Three on-device voice models and many voices, or create your own from a short recording. Add the audiobook (M4B or MP3) and switch between reading and listening whenever you like.</p>
+  </div>
+  <div class="feature">
+    <div class="ficon" style="--c:#2f9a8a" aria-hidden="true">⭐</div>
+    <h2>Track</h2>
+    <p>Give each book stars and private notes, and keep a record of every book you've read, even after you delete its files. Set a yearly goal, and export your library and reviews to bring to a new phone.</p>
+  </div>
+</section>
 
-  <h3>Why won't a book I bought open?</h3>
-  <p>Back to the Story works with DRM-free files. Books and audiobooks from stores that lock files to their own apps can't be opened by other apps.</p>
+<section class="promise">
+  <div class="promise-card">
+    <h2>Private by design</h2>
+    <p>No account, no sign-up, no ads, no tracking. Speech is made on your iPhone and works offline, and your books, voices and notes never leave it.</p>
+  </div>
+  <div class="promise-card">
+    <h2>Pay once, if you want to</h2>
+    <p>Reading and your reading journal are always free. Text to speech and audiobook playback come with a 30-day free trial, then Back to the Story Pro unlocks them forever with a single purchase. No subscription.</p>
+  </div>
+</section>
 
-  <h3>How does switching between reading and listening work?</h3>
-  <p>When a book has both an ebook and an audiobook, Back to the Story scans them in the background to match recording time to text. After that, your place carries over whenever you switch. The first scan of a long book can take a little while.</p>
+<section class="closing">
+  <h2>Pick up right where you left off.</h2>
+  <a class="btn" href="https://apps.apple.com/app/id6811297859">
+    <svg viewBox="0 0 384 512" width="18" height="18" aria-hidden="true"><path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"/></svg>
+    Download on the App Store
+  </a>
+  <p class="fine">For iPhone. Works with DRM-free ebooks and audiobooks.</p>
+</section>
 
-  <h3>Can it read a book aloud without an audiobook?</h3>
-  <p>Yes. On-device Text to Speech reads any ebook aloud and keeps your place, so you can switch back to reading at any time. The voices are downloaded once and then work entirely on your iPhone, even offline. There are three voice models, from most expressive to fastest, and you can create your own voice from a short recording; the recording never leaves your iPhone.</p>
-
-  <h3>What does Back to the Story Pro include?</h3>
-  <p>Reading is always free. Audiobook playback and Text to Speech include a 30-day free trial. After that, Back to the Story Pro unlocks them permanently with a single one-time purchase. There is no subscription.</p>
-
-  <h3>How do I get Pro back on a new iPhone?</h3>
-  <p>Open the Pro screen and tap <strong>Restore Purchases</strong> while signed in with the same Apple Account you used to buy it.</p>
-
-  <h3>Can I get a refund?</h3>
-  <p>Purchases are handled by Apple. You can request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
-
-  <h3>Where are my ratings and notes?</h3>
-  <p>Tap <strong>Reviews</strong> in your library. It keeps every book you've rated or read, even after you delete the book's files, and you can export it from the library menu.</p>
-
-  <h2>Privacy</h2>
-  <p>Back to the Story has no accounts, ads, or tracking, and your books never leave your iPhone. Read the full <a href="privacy.html">privacy policy</a>.</p>
-
-  <footer>&copy; 2026 Thad Judkins</footer>
-</main>
+<footer>
+  <a href="help.html">Help &amp; FAQ</a> · <a href="privacy.html">Privacy</a> · <a href="mailto:backtothestory.app@gmail.com">Contact</a>
+  <div>&copy; 2026 Thad Judkins</div>
+</footer>
 </body>
 </html>
